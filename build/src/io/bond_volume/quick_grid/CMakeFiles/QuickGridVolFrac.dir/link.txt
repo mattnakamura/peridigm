@@ -1,0 +1,2 @@
+/opt/apps/software/tools/binutils/2.40-GCCcore-13.2.0/bin/ar qc libQuickGridVolFrac.a CMakeFiles/QuickGridVolFrac.dir/calculators.cxx.o
+/opt/apps/software/tools/binutils/2.40-GCCcore-13.2.0/bin/ranlib libQuickGridVolFrac.a

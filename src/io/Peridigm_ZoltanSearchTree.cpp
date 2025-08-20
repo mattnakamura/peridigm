@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file Peridigm_ZoltanSearchTree.cpp */
 //@HEADER
 // ************************************************************************

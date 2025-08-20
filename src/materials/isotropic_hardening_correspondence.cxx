@@ -1,3 +1,4 @@
+#include <mpi.h>
 //! \file isotropic_hardening_correspondence.cxx
 
 //@HEADER

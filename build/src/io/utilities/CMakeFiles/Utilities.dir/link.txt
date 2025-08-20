@@ -1,0 +1,2 @@
+/opt/apps/software/tools/binutils/2.40-GCCcore-13.2.0/bin/ar qc libUtilities.a CMakeFiles/Utilities.dir/Sortable.cxx.o CMakeFiles/Utilities.dir/Peridigm_Memstat.cpp.o
+/opt/apps/software/tools/binutils/2.40-GCCcore-13.2.0/bin/ranlib libUtilities.a

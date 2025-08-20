@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file utPeridigm_Kinetic_Energy.cpp */
 
 //@HEADER

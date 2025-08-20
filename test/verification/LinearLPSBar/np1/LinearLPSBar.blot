@@ -1,1 +1,9 @@
-../LinearLPSBar.blot
+tplot
+Left_Reaction_Force_LLPSX
+Right_Reaction_Force_LLPSX
+Left_Reaction_Force_LPSX
+Right_Reaction_Force_LPSX
+overlay
+p
+raw
+quit

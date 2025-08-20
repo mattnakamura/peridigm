@@ -1,3 +1,4 @@
+#include <mpi.h>
 //! \file correspondence.cxx
 
 //@HEADER

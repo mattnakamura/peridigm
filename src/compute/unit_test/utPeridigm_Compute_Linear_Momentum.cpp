@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file utPeridigm_Linear_Momentum.cpp */
 
 //@HEADER

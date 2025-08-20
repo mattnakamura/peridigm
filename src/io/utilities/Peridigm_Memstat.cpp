@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file Peridigm_Memstat.cpp */
 
 #include "Peridigm_Memstat.hpp"

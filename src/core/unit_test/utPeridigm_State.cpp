@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file utPeridigm_State.cpp  with Teuchos Unit test Library*/
 
 //@HEADER

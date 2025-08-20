@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file Peridigm_MeshConverter_Main.cpp
  *
  * Utility for converting hex/tet genesis mesh to a sphere-element mesh.

@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file utPeridigm_Energy.cpp */
 
 //@HEADER

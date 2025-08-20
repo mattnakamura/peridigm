@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file Peridigm_Main.cpp
  *
  * File containing main routine for Peridigm: A parallel, multi-physics,

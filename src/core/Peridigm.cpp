@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file Peridigm.cpp
  *
  * File containing main class for Peridigm: A parallel, multi-physics,

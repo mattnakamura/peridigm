@@ -50,7 +50,6 @@
 #include <string>
 #include <stdexcept>
 
-using std::binary_function;
 
 namespace UTILITIES {
 
@@ -99,7 +98,7 @@ private:
 
 };
 
-struct Distance : public binary_function< Vector3D, Vector3D, double > {
+struct Distance {
   double operator()(const Vector3D& u, const Vector3D& v){
     double dx = v[0]-u[0];
     double dy = v[1]-u[1];
@@ -108,13 +107,13 @@ struct Distance : public binary_function< Vector3D, Vector3D, double > {
   }
 };
 
-struct Dot : public binary_function< Vector3D, Vector3D, double >{
+struct Dot {
   double operator()(const Vector3D& u, const Vector3D& v){
     return u[0]*v[0]+u[1]*v[1]+u[2]*v[2];
   }
 };
 
-struct Cross : public binary_function< Vector3D, Vector3D, Vector3D > {
+struct Cross {
   /*
    * u 'cross' v
    */
@@ -127,7 +126,7 @@ struct Cross : public binary_function< Vector3D, Vector3D, Vector3D > {
   }
 };
 
-struct Minus : public binary_function< Vector3D, Vector3D, Vector3D > {
+struct Minus {
   /*
    * u - v
    */
@@ -140,7 +139,7 @@ struct Minus : public binary_function< Vector3D, Vector3D, Vector3D > {
   }
 };
 
-struct Plus : public binary_function< Vector3D, Vector3D, Vector3D > {
+struct Plus {
   /*
    * u + v
    */
@@ -153,7 +152,7 @@ struct Plus : public binary_function< Vector3D, Vector3D, Vector3D > {
   }
 };
 
-struct InsideSphere : public binary_function< Vector3D, Vector3D, bool > {
+struct InsideSphere {
 public:
   InsideSphere(double radius) : radius(radius) {}
   bool operator()(const Vector3D& u, const Vector3D& v) const {
@@ -168,7 +167,7 @@ private:
   double radius;
 };
 
-struct OutsideSphere : public binary_function< Vector3D, Vector3D, bool > {
+struct OutsideSphere {
 
 public:
   OutsideSphere(double radius) : radius(radius) {}

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+f02fa5671bbd75a99aa67f289818ef51 test/performance/CMakeFiles/ptest
+c5f2f618e151d1814583ce2038b01896 test/regression/CMakeFiles/rtest
+d8ad758fa06f24d8819e6930532d8f39 test/verification/CMakeFiles/vtest

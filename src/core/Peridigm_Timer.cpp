@@ -1,3 +1,4 @@
+#include <mpi.h>
 /*! \file Peridigm_Timer.cpp */
 
 #include "Peridigm_Timer.hpp"
