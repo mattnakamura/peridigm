@@ -50,10 +50,48 @@ The following individuals have made significant contributions to the Peridigm co
 
 ## Citing
 
-When citing Peridigm, please reference the following:
+### Citing the KOA fork
+
+If you use **this fork** (with KOA-specific dependency patches) in your work,
+please cite it via its Zenodo DOI:
+
+```bibtex
+@software{nakamura_peridigm_koa_fork_2026,
+  author    = {Nakamura, Matthew},
+  title     = {{Peridigm} ({KOA} fork with dependency patches)},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {koa-v0.1.0},
+  doi       = {10.5281/zenodo.20126668},
+  url       = {https://doi.org/10.5281/zenodo.20126668},
+  note      = {Fork of Sandia Peridigm with patches for UH KOA HPC compatibility.}
+}
+```
+
+### Citing upstream Peridigm
+
+When citing this fork, please **also cite** the upstream Peridigm references:
 
 * Littlewood, D.J., Parks, M.L., Foster, J.T. et al. The Peridigm Meshfree Peridynamics Code. J Peridyn Nonlocal Model (2023). [https://doi.org/10.1007/s42102-023-00100-0](https://doi.org/10.1007/s42102-023-00100-0)
 * M.L. Parks, D.J. Littlewood, J.A. Mitchell, and S.A. Silling, Peridigm Users' Guide, Tech. Report SAND2012-7800, Sandia National Laboratories, 2012.
+
+```bibtex
+@article{littlewood_peridigm_2023,
+  author    = {Littlewood, David J. and Parks, Michael L. and Foster, John T. and Mitchell, John A. and Diehl, Patrick},
+  title     = {The {Peridigm} {Meshfree} {Peridynamics} {Code}},
+  journal   = {Journal of Peridynamics and Nonlocal Modeling},
+  year      = {2023},
+  doi       = {10.1007/s42102-023-00100-0}
+}
+
+@techreport{parks_peridigm_users_guide_2012,
+  author      = {Parks, M. L. and Littlewood, D. J. and Mitchell, J. A. and Silling, S. A.},
+  title       = {{Peridigm} {Users}' {Guide}},
+  institution = {Sandia National Laboratories},
+  year        = {2012},
+  number      = {SAND2012-7800}
+}
+```
 
 ## License
 
