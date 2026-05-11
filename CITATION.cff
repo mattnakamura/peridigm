@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  This is a fork of Peridigm with KOA-specific dependency patches.
+  When citing, please also cite the upstream Peridigm project (see references).
+type: software
+title: "Peridigm (mattnakamura fork with KOA-specific dependency patches)"
+abstract: >-
+  Fork of the Sandia Peridigm peridynamics code with patches required
+  to build against the modern compiler and dependency stack on the
+  University of Hawaii KOA HPC cluster (GCC 13.2, HDF5 1.14.3,
+  Trilinos 13.4.1). Behavior is unchanged from upstream Peridigm;
+  patches are limited to deprecated C++ standard library headers and
+  link-time issues introduced by newer dependency versions.
+authors:
+  - family-names: Nakamura
+    given-names: Matthew
+    affiliation: "Applied Research Laboratory, University of Hawaii at Manoa"
+repository-code: "https://github.com/mattnakamura/peridigm"
+url: "https://github.com/mattnakamura/peridigm"
+license: BSD-3-Clause
+version: koa-0.1.0
+keywords:
+  - peridynamics
+  - peridigm
+  - fracture-mechanics
+  - hpc
+references:
+  - type: software
+    title: "Peridigm (upstream)"
+    authors:
+      - name: "Peridigm Development Team"
+      - name: "Sandia National Laboratories"
+    repository-code: "https://github.com/peridigm/peridigm"
+    notes: "Original Peridigm code base from which this fork is derived."
